@@ -1,0 +1,174 @@
+.header .navbar-brand img{
+  height: 65px;
+}
+.video-wrapper {
+  width:100%;
+  position: relative;
+  padding-bottom: 56.5%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+}
+.video-wrapper iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.about, .category, .jury_panel, .registration, .Previousshow, .contact_us {
+  padding: 3.5rem 0;
+}
+.contact_us{
+  background: #F5F5F5;
+}
+.category h2, .jury_panel h2, .registration h2{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.category h2, .registration h2{
+  color:#fff;
+}
+.category-item{
+  margin-bottom: 2rem;
+}
+.category-icon img{
+  border-radius: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  border: 2px dotted #fff;
+}
+.category-item p{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.about img{
+  width:100%;
+}
+.category {
+  position: relative;
+  background: url(component/img/offer_bg.png), #1b1c2e;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.registration {
+  position: relative;
+  background: url(component/img/registration_bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.registration-right img{
+ background: rgba(255,255,255,0.5);
+ border-radius: 10px;
+ margin-bottom: 2rem;
+}
+.category-item, .registration-right{
+  text-align: center;
+  color:#fff;
+}
+.registration-right h4{
+  font-size: 2rem;
+}
+.category-item img{
+  width:100%;
+}
+.category-icon{
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+.jury_panel img {
+  width: 100%;
+}
+.menu-item{
+position: relative;
+}
+.textbox {
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  background-color: rgba(230, 49, 14, 0.87)
+}
+.menu-item:hover .textbox {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.jury_panel p{
+  font-size: 1.4rem;
+  text-align: center;
+      font-family: "FU Futura PT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.textbox {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+text-align:center;
+}
+.textbox h4 {
+    font-size: 1.5em;
+    color: #FFF;
+    margin-top: 0.5rem;
+    text-transform: capitalize;   
+}
+.textbox p {
+    font-size: 14px !important;
+    box-sizing: border-box;
+    color: #fff;
+    background: transparent;
+    padding: 9px 15px;
+    margin: 7px auto 0;
+    width: 100%;   
+    text-align: justify;
+    font-family: "FU Futura PT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.jury-name{
+  margin-top: 8px;
+  text-align: center;
+  color:#000;
+  font-size: 1.4rem;
+  font-family: "FU Futura PT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.registration form{
+  width:100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background: rgba(255,255,255,0.3);
+}
+.registration input[type = "text"], .registration input[type ="email"], .registration select{
+  width:100%;
+  box-sizing: border-box;
+  padding: 6px 15px;
+  margin-bottom: 10px;
+  background: #fff;
+  border:0;
+  outline: none;
+}
+.contact_us form input[type="text"], .contact_us form input[type="email"], textarea{
+  width:100%;
+  box-sizing: border-box;
+  padding: 6px 20px;
+  outline: none;
+  border:0;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+.Footer{
+  border-top: 5px solid #17a2b8;
+  padding: 1.5rem 0;
+  background: #7dd0f8;
+}
+.footer-inner{
+  text-align: center;
+}
+@media only screen and  (min-width: 992px){
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+  }
+}
+
+
