@@ -20,7 +20,7 @@ const Previousshow = () => {
                             </ul>
                         </div>
                         <div className='col-md-6'>
-
+                            <div className='p-show'><h2>our previous show</h2></div>
                         </div>
                     </div>
                 </div>
