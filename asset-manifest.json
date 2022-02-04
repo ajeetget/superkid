@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/superkid/static/css/main.2ba1c50e.css",
+    "main.js": "/superkid/static/js/main.e5f8b1bf.js",
+    "static/media/ab.jpg": "/superkid/static/media/ab.db1003224b97f497f551.jpg",
+    "static/media/registration_bg.jpg": "/superkid/static/media/registration_bg.c30e1b907a487f96293b.jpg",
+    "static/media/offer_bg.png": "/superkid/static/media/offer_bg.c43525ea0e9af30beeef.png",
+    "static/media/footer-logo.png": "/superkid/static/media/footer-logo.546da44ebef13cd7b24b.png",
+    "index.html": "/superkid/index.html",
+    "main.2ba1c50e.css.map": "/superkid/static/css/main.2ba1c50e.css.map",
+    "main.e5f8b1bf.js.map": "/superkid/static/js/main.e5f8b1bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ba1c50e.css",
+    "static/js/main.e5f8b1bf.js"
+  ]
+}
